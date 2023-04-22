@@ -1,0 +1,35 @@
+/* styling for favourite list display */
+
+#favScreen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#favScreen .card {
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    background-color: rgb(33, 36, 39);
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+
+#favScreen i {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+#favScreen i:hover {
+    transform: scale(1.2);
+}
+
+
+/* heading style */
+.head {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
