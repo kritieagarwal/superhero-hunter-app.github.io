@@ -10,7 +10,7 @@
     // display container
     var screenDisplay = document.getElementById("list-container");
     // toast
-    const toastLive = document.getElementById('liveToast')
+    const toastLive = document.getElementById('liveToast');
 
     // url to fetch characters using api
     var url = "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=ac22e097c81610130481c2c4ad7279ae&hash=f30734b11737324896e2d9907489787e";
@@ -67,7 +67,7 @@
     // function to add functionality to favourite button
     function events() {
         let favouriteButton = document.querySelectorAll(".add-to-fav-btn");
-        const toast = bootstrap.Toast.getOrCreateInstance(toastLive)
+        const toast = bootstrap.Toast.getOrCreateInstance(toastLive);
         favouriteButton.forEach((data) => {
             data.addEventListener('click', function () {
 

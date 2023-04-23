@@ -44,7 +44,7 @@ function showHeroes(heroes) {
                 <div class="card" style="width: 300px;">
                 <img src="${hero.thumbnail.path + '/standard_large.' + hero.thumbnail.extension}" alt="">
                 <div class="card-body">
-                <h5 class="card-title">${hero.name}</h5>
+                <a class="text-decoration-none text-white" href = ${"./character.html?character=" + hero.id}><h5 class="card-title">${hero.name}</h5></a>
                 <button class="btn rem-fav-btn" name="${hero.name}" id="${hero.id}"><i class="fa-solid fa-heart-circle-minus"></i></button>
                 </div >
                 </div>

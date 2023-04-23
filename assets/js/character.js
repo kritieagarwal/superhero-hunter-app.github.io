@@ -1,5 +1,7 @@
 // getting DOM elements
 var character = document.getElementById("characterDetails");
+// toast
+const toastLive = document.getElementById('liveToast');
 
 // retreiving character id from url
 const Id = new URLSearchParams(window.location.search).get('character');
@@ -61,9 +63,13 @@ function displayHero(heroes) {
 // adding functionality to Favourite button
 function events() {
     let favouriteButton = document.querySelectorAll(".btn");
+    const toast = bootstrap.Toast.getOrCreateInstance(toastLive);
     favouriteButton.forEach((data) => {
         data.addEventListener('click', function () {
+            // adding hero to favourite list
             localStorage.setItem(data.name, data.id)
+            // displaying toast
+            toast.show()
         })
     })
 
