@@ -3,18 +3,18 @@ The Superhero Hunter App is a web application that allows users to search for th
 
 # Features
 The Superhero Hunter App has the following features:
-- Home Page
-The home page of the app displays a list of superheroes (characters) fetched from the Marvel Comics API. Users can filter the list by typing a search query in the search bar.
+## Home Page
+- The home page of the app displays a list of superheroes (characters) fetched from the Marvel Comics API. Users can filter the list by typing a search query in the search bar.
 
-Each search result of the superhero displays relevant information about the superhero, such as their name and thumbnail image. It also includes a "Favorite" button, which users can click to add the superhero to their list of favorite superheroes.
+- Each search result of the superhero displays relevant information about the superhero, such as their name and thumbnail image. It also includes a "Favorite" button, which users can click to add the superhero to their list of favorite superheroes.
 
-- My Favorite Superheroes Page
-The app has a separate page where users can view their list of favorite superheroes. This page displays a list of all the superheroes that the user has added to their list of favorites. The list is persistent, meaning that it will retain the same superheroes even if the user closes their browser.
+## My Favorite Superheroes Page
+- The app has a separate page where users can view their list of favorite superheroes. This page displays a list of all the superheroes that the user has added to their list of favorites. The list is persistent, meaning that it will retain the same superheroes even if the user closes their browser.
 
-Each superhero in the list of favorite superheroes includes a "Remove from Favorites" button, which users can click to remove the superhero from their list of favorites.
+- Each superhero in the list of favorite superheroes includes a "Remove from Favorites" button, which users can click to remove the superhero from their list of favorites.
 
-- Superhero Page
-When a user clicks on a particular superhero in the search results, the app opens a new page with more detailed information about that superhero. The superhero page displays the superhero's name, photo, bio, and other information provided by the Marvel Comics API, such as their comics, events, series, stories, etc.
+## Superhero Page
+- When a user clicks on a particular superhero in the search results, the app opens a new page with more detailed information about that superhero. The superhero page displays the superhero's name, photo, bio, and other information provided by the Marvel Comics API, such as their comics, events, series, stories, etc.
 
 # Usage
 To use the Superhero Hunter App, follow these steps:
